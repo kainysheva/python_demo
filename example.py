@@ -57,16 +57,3 @@ def sum(matrix1, matrix2):
 print('Sum: ')
 res = sum(matrix1, matrix2)
 print(res)
-
-
-
-n = int(input("Enter n: "))
-
-def fib(n):
-    if n == 1:
-        return 0
-    if n == 2 or n == 3:
-        return 1
-    return fib(n-1) + fib(n-2)
-
-print(fib(n))
